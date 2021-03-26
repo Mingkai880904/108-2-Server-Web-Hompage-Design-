@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh_tw">
+<head>
+  <meta charset="utf-8">
+  <title>Hello</title>
+</head>
+<body>
+  <h3> ksu select operation </h3>
+  <!--不對字符編碼 -->    
+  <form enctype="multipart/form-data" method="post"     
+        action="0416-1.php">
+    按查詢鍵, 進階查詢 ksu_std_table <br/> 
+	新的學生姓名會取代被查詢的學生姓名<br/>
+   <input type="text" name="name" size="10"><br/><br>
+    被查詢的學生姓名(有此姓名字串,皆會被查詢出來):<input type="text" name="std_name" size="10"><br/><br/>
+	<input type="submit" name="sub" value="查詢"/>
+  </form>
+</body>
+</html>
